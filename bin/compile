@@ -15,7 +15,7 @@ cd ./yt-dlp/bin/
 # | cut -d : -f 2,3 \
 # | tr -d \" \
 # | grep -e "yt-dlp$") 
-wget -O yt-dlp https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux
+wget -O yt-dlp https://github.com/yt-dlp/yt-dlp/releases/download/2024.03.10/yt-dlp_linux
 chmod a+rx yt-dlp
 echo "Adding to PATH" | indent
 PROFILE="$1/.profile.d/yt-dlp.sh"
